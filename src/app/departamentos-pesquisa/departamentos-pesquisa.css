@@ -1,0 +1,37 @@
+.filtro-container {
+  margin-bottom: 1rem;
+}
+
+.filtro-input {
+  width: 20rem;
+  margin-right: 0.5rem;
+}
+
+.coluna-acoes {
+  width: 10rem;
+}
+
+.botao-editar {
+  margin-right: 0.25rem;
+}
+
+.novo-container {
+  margin-top: 1rem;
+}
+
+.dialog-label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.dialog-input {
+  width: 100%;
+}
+
+.botao-salvar {
+  margin-left: 0.5rem;
+}
+
+:host ::ng-deep .dialog-departamento {
+  width: 28rem;
+}
