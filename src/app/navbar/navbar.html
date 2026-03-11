@@ -1,0 +1,44 @@
+<nav class="navbar">
+  <button
+    pButton
+    type="button"
+    icon="pi pi-bars"
+    class="p-button-text p-button-plain menu-toggle"
+    pTooltip="Abrir/Fechar menu"
+    tooltipPosition="bottom"
+    (click)="alternarMenu()"
+  ></button>
+
+  <span class="navbar-title">Sistema de Funcionarios</span>
+</nav>
+
+<p-drawer
+  position="right"
+  [(visible)]="menuVisivel"
+  [modal]="true"
+  [dismissible]="true"
+  [showCloseIcon]="true"
+  header="Menu"
+>
+  <div class="menu-container">
+    <div class="menu-user">Usuário</div>
+    <button
+      pButton
+      type="button"
+      label="Departamentos"
+      class="p-button-text menu-item"
+      routerLink="/departamentos"
+      routerLinkActive="menu-item-ativo"
+      (click)="fecharMenu()"
+    ></button>
+    <button
+      pButton
+      type="button"
+      label="Funcionários"
+      class="p-button-text menu-item"
+      routerLink="/funcionarios"
+      routerLinkActive="menu-item-ativo"
+      (click)="fecharMenu()"
+    ></button>
+  </div>
+</p-drawer>

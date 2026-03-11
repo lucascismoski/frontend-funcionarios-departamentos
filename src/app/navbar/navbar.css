@@ -1,0 +1,38 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  min-height: 3.5rem;
+  padding: 0 1rem;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.menu-toggle {
+  width: 2.25rem;
+  height: 2.25rem;
+}
+
+.navbar-title {
+  font-weight: 600;
+}
+
+.menu-container {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.menu-user {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+}
+
+.menu-item {
+  justify-content: flex-start;
+  margin-bottom: 0.25rem;
+}
+
+.menu-item-ativo {
+  font-weight: 600;
+}
