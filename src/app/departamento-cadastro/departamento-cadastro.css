@@ -1,0 +1,24 @@
+.cadastro-card {
+  max-width: 34rem;
+}
+
+.campo-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.campo-input {
+  width: 100%;
+}
+
+.erro {
+  color: #b91c1c;
+  font-size: 0.875rem;
+}
+
+.acoes {
+  margin-top: 1rem;
+  display: flex;
+  gap: 0.5rem;
+}
